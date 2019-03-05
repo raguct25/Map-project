@@ -19,20 +19,7 @@ class OverlayComponent extends Component {
           </CardItem>
           <CardItem bordered>
             <Body>
-              <Text>Text 1</Text>
-              <Text>Text 2</Text>
-              <Text>Text 3</Text>
-              <Text>Text 4</Text>
-              <Text>Text 5</Text>
-            </Body>
-          </CardItem>
-          <CardItem bordered>
-            <Body>
-              <Text>Text 1</Text>
-              <Text>Text 2</Text>
-              <Text>Text 3</Text>
-              <Text>Text 4</Text>
-              <Text>Text 5</Text>
+              <Text>{this.props.address}</Text>
             </Body>
           </CardItem>
         </Card>
